@@ -124,7 +124,7 @@ function secuencia()
             // activamos reveal en el sexto
             revealSexto.style.display="inherit";
             revealSexto.style.animationName="revelado";
-            contenedorSexto.style.backgroundImage="url(../img/sexto.jpg)";
+            contenedorSexto.style.backgroundImage="url(./img/sexto.jpg)";
         }
         // Activamos el octavo
         else if(event.animationName==="toArriba" && event.srcElement.classList[1]==="septimo")
@@ -137,7 +137,7 @@ function secuencia()
             // Activamos el reveal del septimo
             revealSeptimo.style.display="inherit";
             revealSeptimo.style.animationName="revelado";
-            contenedorSeptimo.style.backgroundImage="url(../img/septimo.jpg)";
+            contenedorSeptimo.style.backgroundImage="url(./img/septimo.jpg)";
 
             // Mostramos texto del sexto
             txtTercero.style.display="inherit";
@@ -154,7 +154,7 @@ function secuencia()
             // activamos el revelado del octavo
             revealOctavo.style.display="initial";
             revealOctavo.style.animationName="revelado";
-            contenedorOctavo.style.backgroundImage="url(../img/octavo.jpg)";
+            contenedorOctavo.style.backgroundImage="url(./img/octavo.jpg)";
 
             // Mostramos el texto del septimo
             txtCuarto.style.display="inherit"
@@ -171,12 +171,12 @@ function secuencia()
             // activamos el revelado del noveno
             revealNoveno.style.display="initial";
             revealNoveno.style.animationName="revelado";
-            contenedorNoveno.style.backgroundImage="url(../img/noveno.jpg)";
+            contenedorNoveno.style.backgroundImage="url(./img/noveno.jpg)";
 
             // Revelamos el decimo
             revealDecimo.style.display="initial";
             revealDecimo.style.animationName="revelado";
-            contenedorDecimo.style.backgroundImage="url(../img/decimo.jpg)";
+            contenedorDecimo.style.backgroundImage="url(./img/decimo.jpg)";
 
             // Mostramos el texto del octavo
             txtQuinto.style.display="inherit";
